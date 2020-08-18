@@ -1,0 +1,20 @@
+Design:
+1 - Verificação de disponibilidade dos carros - botão se o carro realizou check-in e ainda não realizou check-out, ou está buscando passgeiro, mapa
+2 - Número de Passageiros - 
+3 - Cálculo do raio máximo da corrida (para a corrida não superar o preço máximo de 10 dolares) - dados de GPS
+4 - Verificar se o destino se encontra dentro do raio máximo - GPS
+5 - Solicitar o carro - "Alarme"
+6 - Calcular o preço da corrida (limitado à 10 dolares) - 
+7 - Realizar check-in
+8 - Realizar pagamento - API de pagamento, cartão de crédito
+9 - Realizar check-out
+
+Ao abrir o serviço, o cliente deve obter um mapa com a sua localizaçao e a localização dos carros disponíveis e suas localização (google maps + gps).
+Se não houver carros disponíveis para atender à sua localização, inserir mensagem.
+Se houver carros disponíveis, passar para o próximo passo: número de passageiros.
+Com a informação do número de passageiros mostrar no mapa o raio máximo que o cliente poderá ser levado e pedir o endereço de destino.
+Se o destino estiver dentro do raio abrir a opção de chamar o carro. Caso contrário, abrir opção de selecionar outro destino.
+Calcular e mostrar o valor da corrida e meios de pagamento.
+Emitir um alerta ao carro solicitado.
+Check-in.
+Check-out.

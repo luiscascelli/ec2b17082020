@@ -1,0 +1,10 @@
+Requisitos:
+1 - Verificação de disponibilidade dos carros
+2 - Número de Passageiros
+3 - Cálculo do raio máximo da corrida (para a corrida não superar o preço máximo de 10 dolares)
+4 - Verificar se o destino se encontra dentro do raio máximo
+5 - Solicitar o carro
+6 - Calcular o preço da corrida (limitado à 10 dolares)
+7 - Realizar check-in
+8 - Realizar pagamento
+9 - Realizar check-out
